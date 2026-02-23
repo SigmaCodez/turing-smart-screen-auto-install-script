@@ -18,8 +18,8 @@ This repository provides a small, ready-to-use setup to run **turing-smart-scree
 ## Quick start
 
 ```bash
-git clone https://github.com/<YOUR_USER>/<YOUR_REPO>.git
-cd <YOUR_REPO>
+git clone https://github.com/SigmaCodez/turing-smart-screen-auto-install-script.git
+cd turing-smart-screen-auto-install-script
 chmod +x install.sh
 sudo ./install.sh
 ```
