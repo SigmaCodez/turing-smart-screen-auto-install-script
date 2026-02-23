@@ -1,0 +1,19 @@
+[Unit]
+Description=Turing Smart Screen Python
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+WorkingDirectory=/opt/turing-smart-screen-python
+ExecStart=/usr/local/bin/turing-smart-screen-start.sh
+Restart=on-failure
+
+ProtectSystem=full
+ProtectHome=read-only
+PrivateTmp=true
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
