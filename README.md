@@ -2,6 +2,9 @@
 
 This repository provides a small, ready-to-use setup to run **turing-smart-screen-python** automatically at boot using **systemd**.
 
+GitHub Repository:
+https://github.com/SigmaCodez/turing-smart-screen-auto-install-script
+
 - systemd service: `/etc/systemd/system/turing-smart-screen-python.service`
 - one-step installer: `install.sh`
 - restart behavior: `Restart=on-failure` (restart only if the app crashes)
@@ -18,8 +21,8 @@ This repository provides a small, ready-to-use setup to run **turing-smart-scree
 ## Quick start
 
 ```bash
-git clone https://github.com/<YOUR_USER>/<YOUR_REPO>.git
-cd <YOUR_REPO>
+git clone https://github.com/SigmaCodez/turing-smart-screen-auto-install-script.git
+cd turing-smart-screen-auto-install-script
 chmod +x install.sh
 sudo ./install.sh
 ```
